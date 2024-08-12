@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULADORA LEY OHM/WATT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="javascript.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Electrolize&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="contenido">
+                <h1 class="título">CALCULADORA LEY OHM/WATT</h1>
+             <b>Ley Ohm</b>
+              <input type="radio" checked="checked" onclick="Ohm()" name="opción">
+             <b>Ley Watt</b>
+             <input type="radio" onclick="Watt()" name="opción">
+             <form class="contenedor__formulario">
+                   <select class="contenedor__formulario-opciónU">
+                     <option>Volts</option>
+                      <option>Amperes</option>
+                      <option id="resistencia">Ohmios</option>
+                  </select>
+                  <select class="contenedor__formulario-opciónD">
+                      <option>Volts</option>
+                      <option>Amperes</option>
+                       <option id="resistenciaD">Ohmios</option>
+                   </select>
+                   <input type="number" placeholder="Ingrese el primer valor" class="contenedor__formulario-inputU">
+                   <input type="number" placeholder="Ingrese el segundo valor" class="contenedor__formulario-inputD">
+                   <input type="button" onclick="calcular()" value="CALCULAR">
+                    <h2 class="resultado">RESULTADO</h2>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

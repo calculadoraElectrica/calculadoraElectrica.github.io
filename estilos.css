@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Electrolize';
+}
+.contenedor{
+    background: linear-gradient(to bottom, #11f, #88f);
+    height: 100vh;
+    min-width: 260px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 40px 0 #33f;
+}
+body{
+    background: #111;
+}
+.contenido{
+    height: 200px;
+    margin-top: calc(50vh - 100px);
+}
+b{
+    font-size: 20px;
+}
+.contenedor__formulario-opciónU, .contenedor__formulario-opciónD, [value="CALCULAR"], .contenedor__formulario-inputU, .contenedor__formulario-inputD{
+    background: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    width: 50%;
+}
+.contenedor__formulario-opciónU, .contenedor__formulario-opciónD{
+    display: inline-block;
+    width: 23%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.resultado{
+    margin-top: 15px;
+}
