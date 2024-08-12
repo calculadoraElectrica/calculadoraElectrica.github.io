@@ -5,8 +5,8 @@ function Watt () {
     ley = "Watt";
 }
 function Ohm () {
-    document.querySelector("#resistencia").innerHTML = "Resistencia";
-    document.querySelector("#resistenciaD").innerHTML = "Resistencia";
+    document.querySelector("#resistencia").innerHTML = "Ohmios";
+    document.querySelector("#resistenciaD").innerHTML = "Ohmios";
     ley = "Ohm";
 }
 function calcular () {
